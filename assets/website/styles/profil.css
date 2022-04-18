@@ -19,7 +19,20 @@ main > h3 {
     text-align: center;
 }
 
+.carte_presta:hover {
+     background-color: grey;
+     -webkit-transform:scale(1.15); /* Safari et Chrome */
+-moz-transform:scale(1.15); /* Firefox */
+-ms-transform:scale(1.15); /* Internet Explorer 9 */
+-o-transform:scale(1.15); /* Opera */
+transform:scale(1.15);
+}
+
 .carte_presta > h4 {
     text-decoration: underline 1px solid grey;
     letter-spacing: 2px;
+}
+
+.carte_presta > h4:hover {
+    text-decoration: underline 1px solid whitesmoke;
 }
