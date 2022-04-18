@@ -1,6 +1,20 @@
-body {
+main{
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.background_main {
     background: url(../images/pougne.jpg), rgba(0, 0, 0, 0.689);
     background-blend-mode: darken;
     background-size: cover;
-    height: 100%;
+}
+
+main > p {
+    padding-bottom: 61%;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Grape Nuts', sans-serif;
 }
