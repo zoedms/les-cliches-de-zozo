@@ -1,38 +1,40 @@
 main {
-    background-color: rgb(72, 72, 72);
-    padding: 3%;
+  background-color: rgb(72, 72, 72);
+  padding: 3%;
 }
 
 main > h3 {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Grape Nuts', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Grape Nuts", sans-serif;
+  color: whitesmoke;
+
 }
 
 .carte_presta {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 50px;
-    border-radius: 5px;
-    text-align: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .carte_presta:hover {
-     background-color: grey;
-     -webkit-transform:scale(1.15); /* Safari et Chrome */
--moz-transform:scale(1.15); /* Firefox */
--ms-transform:scale(1.15); /* Internet Explorer 9 */
--o-transform:scale(1.15); /* Opera */
-transform:scale(1.15);
+  background-color: grey;
+  -webkit-transform: scale(1.15); /* Safari et Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* Internet Explorer 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
 }
 
 .carte_presta > h4 {
-    text-decoration: underline 1px solid grey;
-    letter-spacing: 2px;
+  text-decoration: underline 1px solid grey;
+  letter-spacing: 2px;
 }
 
 .carte_presta > h4:hover {
-    text-decoration: underline 1px solid whitesmoke;
+  text-decoration: underline 1px solid whitesmoke;
 }
