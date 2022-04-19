@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Portfolio{% endblock %}
+{% block title %}{{controller_name}}{% endblock %}
 
 {# {% block stylesheets %}
       {{ encore_entry_link_tags('portfolio') }}
@@ -8,10 +8,8 @@
 
 {% block body %}
 
-<main> 
-
-<h3> Mon portfolio </h3>
-
-</main>
+      <main> 
+            <h3>{{controller_name}}</h3>
+      </main>
 
 {% endblock %}
