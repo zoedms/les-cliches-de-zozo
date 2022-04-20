@@ -1,13 +1,22 @@
 main {
-  background-color: rgb(72, 72, 72);
-  padding: 2%;
+  background-color: rgba(72, 72, 72, 0.477);
+  height: 100%;
+  margin: 0;
+  padding: 55px;
+}
+
+main > section {
+  padding: 0;
+  margin: 0;
 }
 
 main > h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Grape Nuts", sans-serif;
-  color: whitesmoke;
+  color: black;
+  padding: 15px;
+  margin: 0;
 }
 
 .carte_presta {
@@ -15,20 +24,23 @@ main > h3 {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  margin: 5px 100px;
+  margin: 30px 150px;
   border-radius: 5px;
   text-align: center;
 }
 
-.carte_presta:hover {
-  background-color: rgba(128, 128, 128, 0.258);
-}
-
 .carte_presta > h4 {
-  text-decoration: underline 1px solid grey;
   letter-spacing: 2px;
+  font-size: 1.7rem;
+  margin: 0;
+  padding: 10px;
 }
 
-.carte_presta > h4:hover {
-  text-decoration: underline 1px solid whitesmoke;
+.carte_presta > p {
+  padding: 5px;
+  margin: 0;
+}
+
+strong {
+  color: grey;
 }
