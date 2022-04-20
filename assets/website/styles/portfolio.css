@@ -1,4 +1,31 @@
 main {
-    background-color: rgb(72, 72, 72);
-    padding: 3%;
+  background-color: rgb(72, 72, 72);
+  height: auto;
+  padding: 2%;
 }
+
+main > h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Grape Nuts", sans-serif;
+  color: whitesmoke;
+}
+
+main > section {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carte_image {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+
