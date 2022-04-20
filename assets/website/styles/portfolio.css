@@ -1,4 +1,6 @@
 main {
-    background-color: rgb(72, 72, 72);
-    padding: 3%;
+    background-color: rgba(72, 72, 72, 0.477);
+    height: auto;
+    padding: 0;
+    margin: 0;
 }

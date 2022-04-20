@@ -2,14 +2,22 @@
 
 {% block title %}{{controller_name}}{% endblock %}
 
-{# {% block stylesheets %}
+{% block stylesheets %}
       {{ encore_entry_link_tags('portfolio') }}
-{% endblock %} #}
+{% endblock %}
 
 {% block body %}
 
       <main> 
             <h3>{{controller_name}}</h3>
+
+                  <section>
+                        <div>
+                              <h4>Photo</h4>
+                                    
+                        </div>
+                  </section>
+
       </main>
 
 {% endblock %}
