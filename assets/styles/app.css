@@ -7,6 +7,7 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding: 5px;
+  top: 0;
 }
 
 header > div > h1 {
@@ -32,6 +33,7 @@ footer {
   bottom: 0;
   padding-left: 15px;
   background-color: whitesmoke;
+  width: 100%;
 }
 
 body {
