@@ -1,28 +1,25 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}
-	{{page_name}}
-{% endblock %}
-
+{% block title %}{{page_name}}{% endblock %}
 {% block stylesheets %}
-	{{ encore_entry_link_tags('portfolio') }}
-{% endblock %}
+      {{ encore_entry_link_tags('portfolio') }}
+{% endblock %} 
 
 {% block body %}
 
-	<main>
-		<h3>{{page_name}}</h3>
+      <main> 
+<h3>{{page_name}}</h3>
 
-		<section>
-			{# Boucle, expression logique for pour affichage des images #}
-			{% for i in 0..9 %}
-				<div class="carte_image">
-					<h4>Photo</h4>
-					<img src={{asset('website/images/pougne.jpg')}} alt="image d'un dada qui s'appelle pougne" class="img_carte">
-				</div>
-			{% endfor %}
-		</section>
+<section>
+	{# Boucle, expression logique for pour affichage des images #}
+	{% for i in 0..9 %}
+		<div class="carte_image">
+			<h4>Photo</h4>
+			<img src={{asset('website/images/pougne.jpg')}} alt="image d'un dada qui s'appelle pougne" class="img_carte">
+		</div>
+	{% endfor %}
+</section>
 
-	</main>
+      </main>
 
 {% endblock %}
