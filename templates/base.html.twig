@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            {% block title %}
-            {% endblock %}
-        </title>
-        <link
-        rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
-        {{ encore_entry_link_tags('app') }}
-        {% block stylesheets %}
-            {#  #}
-        {% endblock %}
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}{% endblock %}
+		</title>
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+		href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+		{# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+		{{ encore_entry_link_tags('app') }}
+		{% block stylesheets %}
+			{#  #}
+		{% endblock %}
 
-        {% block javascripts %}
-            {# {{ encore_entry_script_tags('app') }} #}
-        {% endblock %}
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a class="lien_header" href={{path('home')}}> Home </a>
-                <a class="lien_header" href={{path('app_profile')}}> Prestations </a>
-                <a class="lien_header" href= {{path('app_portfolio')}}> Portfolio </a>
-                <a class="lien_header" href= {{path('app_about')}}> About </a>
-            </nav>
-        </header>
-        {% block body %}{% endblock %}
-        <footer>
-            <p> © Les Clichés de Zozo</p>
-        </footer>
-    </body>
+		{% block javascripts %}
+			{# {{ encore_entry_script_tags('app') }} #}
+		{% endblock %}
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a class="lien_header" href={{path('home')}}>
+					Home
+				</a>
+				<a class="lien_header" href={{path('app_profile')}}>
+					Prestations
+				</a>
+				<a class="lien_header" href={{path('app_portfolio')}}>
+					Portfolio
+				</a>
+				<a class="lien_header" href={{path('app_about')}}>
+					A propos
+				</a>
+			</nav>
+		</header>
+		{% block body %}{% endblock %}		
+		<footer>
+			<p>
+				© Les Clichés de Zozo</p>
+		</footer>
+	</body>
 </html>
-
-

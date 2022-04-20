@@ -9,18 +9,17 @@ header {
   padding: 5px;
 }
 
-header > div > h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Grape Nuts', sans-serif;
+header > div > h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Grape Nuts", sans-serif;
 }
-
 
 header > nav > a {
   text-decoration: none;
   color: black;
   margin: 15px;
-  font-family: 'Grape Nuts', sans-serif;
+  font-family: "Grape Nuts", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -31,7 +30,8 @@ header > nav > a:hover {
 footer {
   position: fixed;
   bottom: 0;
-  text-align: center;
+  padding-left: 15px;
+  background-color: whitesmoke;
 }
 
 body {
