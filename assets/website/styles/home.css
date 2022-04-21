@@ -1,21 +1,21 @@
-main{
-    height: auto;
-    padding: 0;
-    margin: 0;
+main {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 .background_main {
-    background: url(../images/pougne.jpg), rgba(0, 0, 0, 0.689);
-    background-blend-mode: darken;
-    background-size: cover;
+  background: url(../images/pougne.jpg), rgba(0, 0, 0, 0.689);
+  background-blend-mode: darken;
+  background-size: cover;
 }
 
 main > p {
-    padding-bottom: 61%;
-    margin: 0;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Grape Nuts', sans-serif;
-    
+  padding: 25%;
+  margin: 0;
+  color: rgba(245, 245, 245, 0.398);
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Grape Nuts", sans-serif;
+  letter-spacing: 7px;
 }
