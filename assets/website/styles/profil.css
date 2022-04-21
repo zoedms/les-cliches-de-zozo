@@ -1,34 +1,22 @@
-main {
-  background-color: rgba(72, 72, 72, 0.477);
-  height: 100%;
-  margin: 0;
-  padding: 55px;
-  min-height: calc(100vh - 40px);
-  margin-top: 40px;
-}
-
 main > section {
   padding: 0;
   margin: 0;
 }
 
-main > h3 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: "Grape Nuts", sans-serif;
-  color: black;
-  padding: 15px;
-  margin: 0;
+.prestation_cartes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .carte_presta {
   background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
+  padding: 15px;
   margin: 30px 150px;
   border-radius: 5px;
   text-align: center;
+  width: 60%;
 }
 
 .carte_presta > h4 {

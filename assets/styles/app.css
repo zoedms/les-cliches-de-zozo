@@ -1,3 +1,18 @@
+main {
+  min-height: calc(100vh - 40px);
+  /* background-color: rgb(72, 72, 72); */
+  background-image: url(../images/5172066.jpg);
+  margin: 40px 0 0;
+  padding: 2%;
+}
+
+main > h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Grape Nuts", sans-serif;
+  color: rgb(227, 135, 135);
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -20,14 +35,14 @@ header > div > h1 {
 
 header > nav > a {
   text-decoration: none;
-  color: black;
+  color: rgb(227, 135, 135);
   margin: 15px;
   font-family: "Grape Nuts", sans-serif;
   font-size: 1.5rem;
 }
 
 header > nav > a:hover {
-  text-decoration: underline 1px solid black;
+  text-decoration: underline 1px solid rgb(227, 135, 135);
 }
 
 footer {
@@ -36,6 +51,7 @@ footer {
   padding-left: 15px;
   background-color: whitesmoke;
   width: 100%;
+  color: rgb(227, 135, 135);
 }
 
 body {

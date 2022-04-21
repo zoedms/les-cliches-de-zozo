@@ -1,12 +1,53 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}About{% endblock %}
+{% block title %}
+	{{about_name}}
+{% endblock %}
 
-{# 
 {% block stylesheets %}
-    {{ encore_entry_link_tags('about') }}
-{% endblock %} #}
+	{{ encore_entry_link_tags('about') }}
+{% endblock %}
 
 {% block body %}
+
+	<main>
+		<h3>{{about_name}}</h3>
+		<section class="presentation_moi">
+			<article>
+				<p>Moi ?</p>
+				<p>Zoé, 23 ans, passionnée de photographie depuis plusieurs années.
+																					Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremvLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem lorem</p>
+
+			</article>
+			<article>
+				<p>Vivant à la campagne depuis toute petite, j'ai toujours aimer photographier les animaux ou les beaux paysages.
+																					Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremvLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem lorem
+
+				</p>
+			</article>
+		</section>
+		<section class="formulaire_contact">
+			<h3>CONTACT</h3>
+			<article class="formulaire_about">
+      
+				<div>
+					<label for="name">Nom</label>
+					<input type="text" id="name" name="user_name">
+				</div>
+				<div>
+					<label for="firstname">Prénom</label>
+					<input type="text" id="firstname">
+				</div>
+				<div>
+					<label for="mail">E-mail</label>
+					<input type="email" id="mail" name="user_mail">
+				</div>
+				<div>
+					<label for="msg">Message</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</div>
+			</article>
+		</section>
+	</main>
 
 {% endblock %}

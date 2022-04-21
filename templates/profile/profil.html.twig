@@ -1,45 +1,53 @@
 {% extends ('base.html.twig') %}
 {% block stylesheets %}
-    {{ encore_entry_link_tags('profil') }}
+	{{ encore_entry_link_tags('profil') }}
 {% endblock %}
 
-{% block title %}Les Clichés de Zozo{% endblock %}
+{% block title %}Les Clichés de Zozo
+{% endblock %}
 
 {% block body %}
-<main>
+	<main>
 
-    <h3>{{controller_name}}</h3>
+		<h3>{{controller_name}}</h3>
 
-        <section>
+		<section class="prestation_cartes">
 
-            <div class="carte_presta">
-                <h4>Portrait animalier</h4>
-                    <p>Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj </p>
-                    <p><strong>100 euros</strong></p>
-            </div>
+			<div class="carte_presta">
+				<h4>Portrait animalier</h4>
+				<p>Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremvLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem lorem</p>
 
-
-            <div class="carte_presta">
-                <h4>En mouvement</h4>
-                    <p>Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj </p>
-                    <p><strong>80 euros</strong></p>
-            </div>
+				<p>A partir de
+					<strong>100<sup>euros</sup>
+					</strong>
+				</p>
+			</div>
 
 
-            <div class="carte_presta">
-                <h4>Personnalisé</h4>
-                    <p>Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj 
-Lorem lorem lorem lorem lorem lorem jsbnk qisck jsnk,nd sjdjskjd jdnjqi djqd, d dbjnqdudjnj </p>
-                    <p><strong>A la demande</strong></p>
-            </div>
+			<div class="carte_presta">
+				<h4>En mouvement</h4>
+				<p>Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremvLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem lorem</p>
 
-        </section>
+				<p>A partir de
+					<strong>80<sup>euros</sup>
+					</strong>
+				</p>
+			</div>
 
-</main>
+
+			<div class="carte_presta">
+				<h4>Personnalisé</h4>
+				<p>Lorem lorem lorem lorem lorem lorem Lorem lorem lorem lorem lorem lorem
+					Lorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremvLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem loremLorem lorem lorem lorem lorem lorem</p>
+
+
+				<p>
+					<strong>A la demande</strong>
+				</p>
+			</div>
+
+		</section>
+
+	</main>
 
 {% endblock %}
