@@ -1,4 +1,6 @@
 header {
+  position: fixed;
+  width: 100%;
   height: auto;
   background-color: whitesmoke;
   margin: 0;
