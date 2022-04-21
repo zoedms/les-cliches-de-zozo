@@ -1,3 +1,68 @@
-body{
-    background-color: azure;
+.presentation_moi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation_moi > article {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 50px;
+    height: 150px;
+    width: 28%;
+    border-radius: 5px;
+}
+
+.formulaire_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire_contact > h3 {
+    color: rgb(227, 135, 135);
+    font-size: 3rem;
+    font-family: 'Grape Nuts', sans-serif;
+}
+
+.formulaire_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    color: rgb(227, 135, 135);
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+}
+
+.formulaire_about > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+
+#name, #mail, #firstname {
+    width: 250px;
+    height: 20px;
+    background-color: rgba(227, 135, 135, 0.185);
+    border: none;
+    border-radius: 2px;
+}
+
+#msg {
+    height: 100px;
+    width: 500px;
+    background-color: rgba(227, 135, 135, 0.185);
+    border: none;
+    border-radius: 2px;
 }
