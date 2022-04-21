@@ -1,15 +1,3 @@
-main {
-  background-color: rgb(72, 72, 72);
-  height: auto;
-  padding: 2%;
-}
-
-main > h3 {
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Grape Nuts", sans-serif;
-  color: whitesmoke;
-}
 
 main > section {
   margin: 0;
@@ -21,7 +9,7 @@ main > section {
 }
 
 .carte_image {
-  background-color: whitesmoke;
+  background-color: rgb(227 135 135 / 52%);
   width: auto;
   height: 250px;
   margin: 20px;
