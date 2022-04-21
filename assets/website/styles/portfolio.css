@@ -22,9 +22,16 @@ main > section {
 
 .carte_image {
   background-color: whitesmoke;
-  width: 250px;
+  width: auto;
   height: 250px;
   margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.img_carte {
+  width: 350px;
+  height: 250px;
   border-radius: 5px;
 }
 

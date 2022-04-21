@@ -9,12 +9,11 @@
 
 	<main>
 		<h3>{{page_name}}</h3>
-
 		<section>
 			{# Boucle, expression logique for pour affichage des images (7 images) #}
 			{% for i in 0..7 %}
 				<div class="carte_image">
-					<img src={{asset('website/images/pougne.jpg')}} alt="image d'un dada qui s'appelle pougne" class="img_carte">
+					<img src={{asset('build/website/images/pougne.jpg')}} alt="image d'un dada qui s'appelle pougne" class="img_carte">
 				</div>
 			{% endfor %}
 		</section>
